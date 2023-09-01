@@ -43,4 +43,5 @@ async function updateUsuario(data) {
   await client.query(query, usuario);
 }
 
+
 export { selectUsuarios, selectUsuario, insertUsuario, deleteUsuario, updateUsuario };
